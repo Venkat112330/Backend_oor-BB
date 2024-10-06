@@ -51,7 +51,7 @@ exports.getcheckout = async (req, res, next) => {
       // success_url: `https://k-murali.github.io/Blogger?tour=${
       //   req.params.tourid
       // }&user=${req.user.id}&price=${900}`,
-      success_url: `${req.protocol}://localhost:3000/event?event=${req.params.eventid}&user=${req.user.id}&price=${event.price}`,
+      success_url: `${req.protocol}:/https://venkat112330.github.io/event?event=${req.params.eventid}&user=${req.user.id}&price=${event.price}`,
 
       // not secure at all;
       cancel_url: `${req.protocol}://${req.get("host")}/tour/${
